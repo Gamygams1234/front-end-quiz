@@ -49,6 +49,245 @@ body {
   font-weight: 900;
 }
 
+.italic {
+  font-style: italic !important;
+}
+
+// Define base spacer size
+$spacer: 1rem;
+
+/* Padding Bottom Classes */
+.pb-1 {
+  padding-bottom: 0.25rem; /* Adjust the value as per your design system */
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem; /* Adjust the value as per your design system */
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem; /* Adjust the value as per your design system */
+}
+
+.pb-4 {
+  padding-bottom: 1rem; /* Adjust the value as per your design system */
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem; /* Adjust the value as per your design system */
+}
+
+/* Padding Top Classes */
+.pt-1 {
+  padding-top: 0.25rem; /* Adjust the value as per your design system */
+}
+
+.pt-2 {
+  padding-top: 0.5rem; /* Adjust the value as per your design system */
+}
+
+.pt-3 {
+  padding-top: 0.75rem; /* Adjust the value as per your design system */
+}
+
+.pt-4 {
+  padding-top: 1rem; /* Adjust the value as per your design system */
+}
+
+.pt-5 {
+  padding-top: 1.25rem; /* Adjust the value as per your design system */
+}
+
+/* Padding Left Classes */
+.pl-1 {
+  padding-left: 0.25rem; /* Adjust the value as per your design system */
+}
+
+.pl-2 {
+  padding-left: 0.5rem; /* Adjust the value as per your design system */
+}
+
+.pl-3 {
+  padding-left: 0.75rem; /* Adjust the value as per your design system */
+}
+
+.pl-4 {
+  padding-left: 1rem; /* Adjust the value as per your design system */
+}
+
+.pl-5 {
+  padding-left: 1.25rem; /* Adjust the value as per your design system */
+}
+
+/* Padding Right Classes */
+.pr-1 {
+  padding-right: 0.25rem; /* Adjust the value as per your design system */
+}
+
+.pr-2 {
+  padding-right: 0.5rem; /* Adjust the value as per your design system */
+}
+
+.pr-3 {
+  padding-right: 0.75rem; /* Adjust the value as per your design system */
+}
+
+.pr-4 {
+  padding-right: 1rem; /* Adjust the value as per your design system */
+}
+
+.pr-5 {
+  padding-right: 1.25rem; /* Adjust the value as per your design system */
+}
+
+/* Combined Padding Classes */
+.p-1 {
+  padding: 0.25rem; /* Adjust the value as per your design system */
+}
+
+.p-2 {
+  padding: 0.5rem; /* Adjust the value as per your design system */
+}
+
+.p-3 {
+  padding: 0.75rem; /* Adjust the value as per your design system */
+}
+
+.p-4 {
+  padding: 1rem; /* Adjust the value as per your design system */
+}
+
+.p-5 {
+  padding: 1.25rem; /* Adjust the value as per your design system */
+}
+// Define margin utility classes
+.mt-0 {
+  margin-top: 0 !important;
+}
+.mt-1 {
+  margin-top: $spacer * 0.25 !important;
+}
+.mt-2 {
+  margin-top: $spacer * 0.5 !important;
+}
+.mt-3 {
+  margin-top: $spacer !important;
+}
+.mt-4 {
+  margin-top: $spacer * 1.5 !important;
+}
+.mt-5 {
+  margin-top: $spacer * 3 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mb-1 {
+  margin-bottom: $spacer * 0.25 !important;
+}
+.mb-2 {
+  margin-bottom: $spacer * 0.5 !important;
+}
+.mb-3 {
+  margin-bottom: $spacer !important;
+}
+.mb-4 {
+  margin-bottom: $spacer * 1.5 !important;
+}
+.mb-5 {
+  margin-bottom: $spacer * 3 !important;
+}
+
+// Additional margin utilities
+.ml-0 {
+  margin-left: 0 !important;
+}
+.ml-1 {
+  margin-left: $spacer * 0.25 !important;
+}
+.ml-2 {
+  margin-left: $spacer * 0.5 !important;
+}
+.ml-3 {
+  margin-left: $spacer !important;
+}
+.ml-4 {
+  margin-left: $spacer * 1.5 !important;
+}
+.ml-5 {
+  margin-left: $spacer * 3 !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+.mr-1 {
+  margin-right: $spacer * 0.25 !important;
+}
+.mr-2 {
+  margin-right: $spacer * 0.5 !important;
+}
+.mr-3 {
+  margin-right: $spacer !important;
+}
+.mr-4 {
+  margin-right: $spacer * 1.5 !important;
+}
+.mr-5 {
+  margin-right: $spacer * 3 !important;
+}
+
+.mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.mx-1 {
+  margin-left: $spacer * 0.25 !important;
+  margin-right: $spacer * 0.25 !important;
+}
+.mx-2 {
+  margin-left: $spacer * 0.5 !important;
+  margin-right: $spacer * 0.5 !important;
+}
+.mx-3 {
+  margin-left: $spacer !important;
+  margin-right: $spacer !important;
+}
+.mx-4 {
+  margin-left: $spacer * 1.5 !important;
+  margin-right: $spacer * 1.5 !important;
+}
+.mx-5 {
+  margin-left: $spacer * 3 !important;
+  margin-right: $spacer * 3 !important;
+}
+
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.my-1 {
+  margin-top: $spacer * 0.25 !important;
+  margin-bottom: $spacer * 0.25 !important;
+}
+.my-2 {
+  margin-top: $spacer * 0.5 !important;
+  margin-bottom: $spacer * 0.5 !important;
+}
+.my-3 {
+  margin-top: $spacer !important;
+  margin-bottom: $spacer !important;
+}
+.my-4 {
+  margin-top: $spacer * 1.5 !important;
+  margin-bottom: $spacer * 1.5 !important;
+}
+.my-5 {
+  margin-top: $spacer * 3 !important;
+  margin-bottom: $spacer * 3 !important;
+}
+
 // colors
 .bg-purple {
   background-color: $purple;
@@ -124,10 +363,121 @@ body {
   color: $red;
   transition: color 0.2s ease-in-out;
 }
+button {
+  background-color: $purple;
+  color: $pure-white;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  height: 3.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  border: none;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  filter: brightness(120%);
+}
+
+// text size
+h2 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+// the toggle
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $purple;
+    transition: 0.4s;
+    border-radius: 34px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+  }
+
+  input:checked + .slider {
+    background-color: $purple;
+  }
+
+  input:checked + .slider::before {
+    transform: translateX(26px);
+  }
+}
+
+// progress bar
+.progress-bar-container {
+  width: 100%;
+  background-color: $pure-white;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 22px;
+}
+
+.progress-bar {
+  height: 0.4rem;
+  width: 0%;
+  border-radius: 6px;
+  border: 3px solid $pure-white;
+  background-color: $purple;
+  transition: width 0.4s ease;
+}
+.dark {
+  // progress bar
+  .progress-bar-container {
+    width: 100%;
+    background-color: $navy;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 22px;
+  }
+  .progress-bar {
+    height: 0.4rem;
+    width: 0%;
+    border-radius: 6px;
+    border: 3px solid $navy;
+    background-color: $purple;
+    transition: width 0.4s ease;
+  }
+}
 
 .page {
   background-repeat: no-repeat;
-  min-height: 100dvh;
+  min-height: calc(100dvh - 1.25rem);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: all 0.2s ease-in-out;
 }
 
 // mobile styles
@@ -135,15 +485,249 @@ body {
   background-image: url("/images/pattern-background-mobile-light.svg");
   background-position: center;
   background-size: cover;
-
 }
 
 .dark {
   .bg-light-grey {
+    background-color: $grey-navy;
+  }
+  .bg-pure-white {
     background-color: $navy;
   }
   .page {
     background-image: url("/images/pattern-background-mobile-dark.svg");
+  }
+  .text-grey-navy {
+    color: $light-blush;
+  }
+  .text-dark-navy {
+    color: $pure-white;
+    transition: color 0.2s ease-in-out;
+  }
+}
+
+.game-selections {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+  .selection {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 1rem;
+      padding: 0.5rem;
+      border-radius: 0.2rem;
+    }
+  }
+}
+
+#warning {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  img {
+    margin-right: 1rem;
+  }
+}
+.in-play {
+  .option:hover {
+    span {
+      background-color: #f6e7ff;
+      color: $purple;
+    }
+  }
+}
+
+.quiz {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+
+  .option {
+    padding: 0.4rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 4px solid $pure-white;
+    span {
+      background-color: $light-grey;
+      color: $grey-navy;
+      height: 3rem;
+      min-width: 3rem; /* Ensure the minimum width */
+      flex-shrink: 0; /* Prevent shrinking */
+      border-radius: 0.3rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin-right: 1rem;
+      transition: all 0.2s ease-in-out;
+    }
+    .answer {
+      flex-grow: 1;
+    }
+    img{
+      opacity: 0;
+      transition: opacity .2s ease-in-out;
+    }
+  }
+  .option.wrong {
+    border: 4px solid $red !important;
+    span {
+      background-color: $red !important;
+      color: $pure-white !important;
+    }
+    img{
+      opacity: 1;
+    }
+  }
+  .option.right {
+    border: 4px solid $green !important;
+    span {
+      background-color: $green !important;
+      color: $pure-white !important;
+    }
+    img{
+      opacity: 1;
+    }
+  }
+ 
+  .selected.option {
+    border: 4px solid $purple;
+    span {
+      background-color: $purple;
+      color: $pure-white;
+    }
+  }
+
+  button {
+    background-color: $purple;
+    color: $pure-white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+  }
+}
+.answered{
+  .correct{
+    img{
+      opacity: 1;
+    }
+  }
+}
+
+
+.details {
+  display: flex;
+  flex-direction: column;
+  .specifics {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .score {
+      font-size: 6rem;
+    }
+  }
+}
+
+.dark {
+  .quiz {
+    .option {
+      border: 4px solid $navy;
+    }
+    .selected {
+      border: 4px solid $purple;
+    }
+  }
+}
+.main-selection {
+  display: flex;
+  align-items: center;
+  img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+  }
+}
+
+// icons
+
+.html-icon {
+  background-color: #fff1e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.css-icon {
+  background-color: #e0fdef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.javascript-icon {
+  background-color: #ebf0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accessibility-icon {
+  background-color: #f6e7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Default for mobile */
+  gap: 16px; /* Adjust gap as needed */
+}
+
+.dark-toggle {
+  display: flex;
+  img {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  img:last-child {
+    margin-right: 0rem;
+  }
+}
+// header
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding-top: 1rem;
+  padding-top: 1rem;
+  align-items: center;
+}
+
+// game screen
+
+.question {
+  h4 {
+    font-size: 2.5rem;
+    line-height: 1.25;
   }
 }
 
@@ -156,18 +740,25 @@ body {
 @media (min-width: 768px) {
   /* Your styles for md here */
 
+  // fonts
+  h2 {
+    font-size: 3.75rem;
+  }
+
   // mobile styles
   .page {
     background-image: url("/images/pattern-background-tablet-light.svg");
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .dark {
-    .bg-light-grey {
-      background-color: $navy;
-    }
     .page {
       background-image: url("/images/pattern-background-tablet-dark.svg");
     }
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr; /* 2 columns for desktop */
   }
 }
 
@@ -175,13 +766,15 @@ body {
 @media (min-width: 992px) {
   /* Your styles for lg here */
   .page {
+    padding-left: 8.75rem;
+    padding-right: 8.57rem;
     background-image: url("/images/pattern-background-desktop-light.svg");
   }
 
   .dark {
-    .bg-light-grey {
-      background-color: $navy;
-    }
+    // .bg-light-grey {
+    //   background-color: $navy;
+    // }
     .page {
       background-image: url("/images/pattern-background-desktop-dark.svg");
     }
