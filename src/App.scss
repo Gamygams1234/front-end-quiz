@@ -760,6 +760,15 @@ h5 {
   .grid-container {
     grid-template-columns: 1fr 1fr; /* 2 columns for desktop */
   }
+  .question{
+    display: flex;
+    flex-direction: column; 
+    padding-bottom: 5rem;
+    .question-details{
+      flex-grow: 1;
+
+    }
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
